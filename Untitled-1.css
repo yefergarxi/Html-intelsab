@@ -1,0 +1,402 @@
+.header{background: rgb(254, 4, 4);
+color: chocolate;
+display: flex;
+justify-content: space-between;
+height: 120px;
+flex-wrap: wrap;
+}
+
+.container {
+    max-width: width 1000px;
+    flex: 1;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+    padding: 0 1em;
+    text-align: none;
+}
+.menu{
+    height: inherit;
+}
+.header ol{
+    display: flex;
+    height: inherit;
+}
+.header ol li{
+    height: inherit;
+    display: flex;
+    align-items: center;
+
+}
+.header a{
+    display: flex;
+    align-items: center;
+    height: inherit;
+    padding: 0 10px;
+}
+ol,
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+    color: azure;
+}
+figure{
+    margin: 0px;
+}
+h1{
+    font-size: 40px;
+    line-height: 1.5em;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    color: rgb(199, 48, 48);
+    margin: 0px;
+}
+h1 strong{
+    color: rgb(196, 18, 54);
+}
+.logo{
+    padding: 1%;
+}
+.li { 
+    text-decoration: none;
+    color: white;
+}
+strong{ 
+    color: rgb(38, 207, 92);
+    text-transform: uppercase;
+}
+.matt{
+    height: 300px;
+    background-image: url(shaw.jpg);
+    background-color: black;
+    background-size: 300px 290px;
+    background-repeat: no-repeat;
+    background-position-x:right;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.titulo {
+    color: rgb(242, 238, 233);
+    font-size: 2em;
+}
+.portafolio{
+    background-color: white;
+    padding: 20px;
+}
+.project{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 10px;
+}
+.event-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.event {
+    margin: 1%;
+    width: 42%;
+    flex-shrink: 0;
+    overflow: hidden;
+    background-color: aqua;
+}
+.event img{
+    height: 250px;
+    object-fit: cover;
+    width: 100%;
+}
+.html-video{
+    height: auto;
+    object-fit: cover;
+    width: 100%;
+}
+
+.event-details{
+    margin: 20px 40px;
+    background-color: white;
+    margin-top: -40px;
+    position: relative;
+    padding: 20px;
+    Text-align: center;
+}
+.event-url{
+    border: 1px solid blue;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+}
+.event-list-title { 
+    margin-left: 10px;
+}
+
+
+
+
+
+.form-email {
+    padding: 5px;
+}
+
+.form-email input {
+    border-color: gray;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px 20px 10px 25px;
+}
+
+.form-email button {
+    display: block;
+    margin-top: 10px;
+    background: transparent;
+    color: white;
+    padding: 5px 0;
+    width: 100px;
+    border-color: white;
+    border-style: solid;
+}
+.social {
+    display: flex;
+    align-items: center;
+    
+}
+
+.social-link {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    background-size: 50px 50px;
+    border-radius: 150px;
+    
+}
+
+.social-container {
+    display: flex;
+    justify-content: flex-end;  /* A la derecha */
+    align-items: center;         /* Centrado vertical */
+    gap: 15px;
+    height: 60px;                /* Ajusta según tu footer */
+    padding-right: 20px;
+}
+
+.social-container img {
+    width: 32px;          /* Tamaño uniforme */
+    height: 32px;
+    border-radius: 50%;   /* Forma circular */
+    object-fit: cover;    /* Ajusta bien dentro del círculo */
+    background: #fff;     /* Opcional, para que quede bonito */
+    padding: 4px;         /* Margen interno */
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.social-container img:hover {
+    transform: scale(1.1);
+}
+
+.containers {
+    display:flex;
+    background-color:  brown;
+    color: white;
+    height: 150px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    }
+ 
+.burger-button{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: rgba(0,0,0,0.80);
+	display: none;
+	line-height: 40px;
+	text-align: center;
+	position: fixed;
+	z-index: 4;
+	left: 5px;
+	top: 5px;
+	color: white;
+	
+	
+}
+
+
+@media screen and (max-width:1023px) {
+	
+	.container {
+		padding: 0 1em;
+	}
+	
+	.mauro {
+		height: auto;
+		position: relative;
+		overflow: hidden;
+		padding: 2em;
+		
+	}
+	
+	.mauro-image {
+		
+		z-index: 1;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		width: 50%;
+		
+		
+	}
+	
+	h1 {
+		font-size: 2em;
+		z-index: 2;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	
+	.burger-button{
+		display: block;
+	}
+	
+	.header{
+		
+		display: block;
+		height: auto;
+	}
+	
+	.header ol {
+		display: block;
+	}
+	
+	.header ol li {
+		height: 40px;
+		display: block;
+	}
+	
+	.header a {
+	 	 justify-content: center;
+	 	 height: 40px;
+	 	 font-size: 2em;
+		text-decoration: underline;
+		margin-bottom:  .5em;
+	}
+	
+	.header .logo {
+		text-align: center;
+		
+	}
+	
+	.menu {
+		position: fixed;
+		background: rgba(5, 111, 255, .9);
+		z-index: 3;
+		top:0;
+		left: -100vw; /*Para que el menu se oculte a la izquierda y se muestre al hacer click */
+		width: 100vw;
+		bottom: 0; 
+		/*height: 100vh; *//* a partir de aquí para centrar */
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		transition: .3s; /*crea efecto de transicion */
+	}
+	
+	.menu.is-active {
+		left: 0;
+	}
+	
+	.project { 
+		display: block;
+	}
+	
+	.project-details {
+		width: auto;
+	}
+	
+	.project-imageContainer {
+		width: auto;
+		text-align: center;
+		
+	}
+	
+	.project-description {
+		font-size: .8em;
+	}
+	
+	.event {
+		width: 95%;
+		flex-shrink: initial;
+		text-align: center;
+	}
+	
+	.event img {
+		width: 95%;
+	}
+	
+	.event-details {
+		margin: -40px 10px 10px 10px; 
+	}
+	
+}
+@media screen and (max-width:480px) {
+	
+	h1 {
+		font-size: 1.5 em;
+	}
+	.event-details {
+		/* 1em= 16px */
+		margin: -2em .5em .5em;
+		padding: 1em;
+	}
+	
+	.contact {
+		height: auto;
+		padding: 1em 0;
+		display: block;
+		text-align: center;
+	}
+	
+	.social {
+		display: flex;
+		justify-content: center;
+	}
+	
+	.form-email button{
+		margin:1em auto;
+		
+	}
+	
+	.footer {
+		display: block;
+		text-align: center;
+		border: 1px solid transparent;
+	}
+	
+}
+@media screen and (max-width:320px) {
+	
+	h1 {
+		font-size: 1.2em;
+		padding: 3em 1em;
+		/*background: rgba(0,0,0,0.5);*/
+	}
+	
+	}

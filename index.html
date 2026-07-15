@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>document</title>
+        <link rel="stylesheet" href="Untitled-1.css">
+    </head>
+    <body>
+        <i class="icon-menu burger-button" id="burger-menu"></i>
+        <header class="header">
+            <div class="container">
+    
+                <figure class="logo">
+                    <img src="jesus.png" alt="logo mb digital" width="355px" height="115px">
+                </figure>
+                <nav class="menu">
+                    <ol>
+                        <li>
+                            <a class="link" href="https://www.reddit.com/r/youtube/comments/1g34t2s/my_50_favorite_video_game_logos_animated/?tl=es-419" target="_blank">inicio</a>
+                        </li>
+                        <li>
+                            <a class="link" href="https://www.friv.com/?play-juegos" target="_blank">juegos</a>
+                        </li>
+                        <li>
+                            <a class="link" href="https://www.utorrent.com/intl/es/web/downloads/complete/track/stable/os/win/" target="_blank">descarga aqui</a>
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+        </header>
+<section class="matt">
+        <div class="container">
+            <h1 class="titulo">
+               hola soy <strong>Yefer Matamoros</strong><br> soy el pendejo que esta<br> <strong>abajo</strong> jijijija
+            </h1>
+        </div>
+        </section>
+        <section class="portafolio">
+            <div class="container">
+                <h2>articulo importamte</h2>
+                <article class="project">
+                    <div class="project-details">
+                        <h3 class="project-tittle">mi experiencia</h3>
+                        <h6 class="project-course">algo acerca de mi </h6>
+                        <p class="project-date"><small><strong>fecha</strong>23/09/2025</small></p>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Quibusdam assumenda, iusto nobis optio eum dolorem reprehenderit recusandae culpa architecto aut eligendi amet dignissimos sed necessitatibus adipisci ipsa nemo suscipit harum?</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Quisquam facere quo explicabo deserunt! Eos ipsum quas itaque vitae eaque,<br> asperiores earum labore distinctio accusamus iste nam, maxime praesentium, nihil eligendi.</p>
+                    </div>
+                    <figure class="project-imagecontainer"></figure>
+                    <img src="wtf.jpg"class="project-image"width="200px">
+                </article>
+            </div>
+        </section>
+    <div class="container">
+    <h2 class="event-list-title">mas sobre mi experiencia</h2>
+    </div>
+    <section id="experiencia"class="event-list">
+        <div class="container">
+            
+            <article class="event">
+                <figure class="event-img">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/9YnlIr_ukug?si=KMLnBS566Qhv4E7S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </figure>
+                <div class="event-details">
+                    <h3 class="event-title">chingada madre :v</h3>
+                    <p class="event-descriotion">el diablo</p>
+                    <a class="event-url">ver</a>
+                </div>
+            </article>
+             <article class="event">
+                <figure class="event-img">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/9YnlIr_ukug?si=KMLnBS566Qhv4E7S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </figure>
+                <div class="event-details">
+                    <h3 class="event-title">chingada madre :v</h3>
+                    <p class="event-descriotion">el diablo</p>
+                    <a class="event-url">ver</a>
+                </div>
+            </article>            
+
+            
+        </div>
+    </section>
+        <Section id="contacto" class="contact">
+            
+            
+            <div class="containers">
+                <form action="yefergarxi0950@gmail.com" class="form-email">
+                    <h3> Contactame, licenciado.</h3>
+                    <Input type="text" placeholder="saquenmedevenezuela">
+                        <button> enviar </button>
+                </form>
+                    <div class="social-container">
+                     <a href="#"><img src="img/facebook.png" alt="Facebook"></a>
+                     <a href="#"><img src="img/twitter.png" alt="Twitter"></a>
+                     <a href="#"><img src="img/linkedin.png" alt="LinkedIn"></a>
+                    </div>
+            </div>
+            </section>
+            <footer class="footer">
+                
+                <div class="containers">
+                    <div><p> tumba la casa, mami</p></div>
+                </div>   
+            </footer>
+            <script>
+		const ipad = window.matchMedia("screen and(max-width: 767px)")
+		
+		 const menu = document.querySelector(".menu");
+		// console.log(menu);
+		 const burgerButton = document.querySelector("#burger-menu");
+		// console.log(burgerButton);
+		 
+		 burgerButton.addEventListener("click" , hideShow)
+		 
+		 ipad.addListener(validation)
+		 
+		 function validation(event) {
+			 
+			 if (event.matches){
+				 burgerButton.addEventListener("click" , hideShow)
+			 }
+			
+			 
+		 }
+		 
+		 function hideShow() {
+		
+			if (menu.classList.contains("is-active")){
+				menu.classList.remove("is-active");
+			}else{
+		
+			 menu.classList.add("is-active"); }
+		  }
+	</script>
+           </body>
+</html>
